@@ -5,8 +5,8 @@ on:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
+  name: "Mirzapur 1080P"
+  comment: "Mirzapur 1080P"
   url: "https://index.cdn-utube.workers.dev/2417422473a10942cf91c46826cdac9274c9d5180b79ad512a8bcc07f18ac9fbc06cf17b18f9d8df4fe3851a762ab08c::a3e9bc2a24c2057df7eb2d3d25602e75/1396595190/HDMovies4u.Boo-Mirzapur.S01.E01-09.1080p.AMZN.WEB-DL.DD+5.1.H.264.zip"
   file_name: "HDMovies4u.Boo-Mirzapur.S01.E01-09.1080p.AMZN.WEB-DL.DD+5.1.H.264.zip"
   piece_size: 24 # Check the README.md for recommended piece size
