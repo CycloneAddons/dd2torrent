@@ -7,9 +7,9 @@ on:
 env:
   name: "Android Studio and SDK Tools"
   comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  url: "https://index.cdn-utube.workers.dev/2417422473a10942cf91c46826cdac9274c9d5180b79ad512a8bcc07f18ac9fbc06cf17b18f9d8df4fe3851a762ab08c::a3e9bc2a24c2057df7eb2d3d25602e75/1396595190/HDMovies4u.Boo-Mirzapur.S01.E01-09.1080p.AMZN.WEB-DL.DD+5.1.H.264.zip"
+  file_name: "HDMovies4u.Boo-Mirzapur.S01.E01-09.1080p.AMZN.WEB-DL.DD+5.1.H.264.zip"
+  piece_size: 24 # Check the README.md for recommended piece size
       
 jobs:
   create:
@@ -27,5 +27,5 @@ jobs:
       - name: Upload torrent file
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.name }}
-          path: ${{ env.name }}.torrent
+          name: mirzapur
+          path: mirzapur.torrent
